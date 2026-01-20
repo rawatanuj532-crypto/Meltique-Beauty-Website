@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+header{
+    top: 0;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #722f38;
+    padding: 10px 40px;
+    
+}
+header img {
+    height: 55px;
+   
+}
+ul{
+   display: flex;
+   list-style: none;
+   gap: 40px;
+   font-size: 20px;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+ul li a{
+   text-decoration: none;
+    color:#EFDFBB;
+    font-family: cinzel;
+    
+}
+ul li a:hover{
+    font-size: 1.3em;
+    text-shadow: 0 0 15px;
+    transition: 0.6s;
+    
+
+}
+footer{
+     text-align: center;
+     color:#EFDFBB;
+     background-color: #722f38;
+     padding: 12px 50px;
+     
+
+}
+.container{
+    width: 80vw;
+    margin:40px auto;
+    display: flex;
+    background-color: #EFDFBB;
+    padding: 25px;
+    border-radius: 40px;
+    gap:20px;
+    box-shadow: 0 0 10px;
+    
+
+}
+
+.text{
+    color: #722f38;
+    margin: auto;
+    
+}
+h1{
+    font-size: 50px;
+   font-family: cinzel;
+   font-weight: 800;
+  
+
+}
+h2{
+    font-size: 35px;
+    font-family: cinzel;
+    
+}
+h3{
+    font-family:'poppins',sans-serif;
+    font-weight: 200;
+    line-height: 1.8;
+   
+}
+button{
+    color: #EFDFBB;
+    background-color: #722f38;
+    padding:15px;
+    border-radius: 50px;
+    margin-top: 40px;
+    font-family: cinzel;
+    
+}
+button:hover{
+    color: #EFDFBB;
+    background-color: #722f38;
+    padding:18px;
+    border-radius: 50px;
+    transition: 0.6s;
+    text-shadow: 0 0 15px;
+    
+}
+
+.container p {
+    width: 50%;
+    line-height: 1.6;
+    font-size: 16px;
+    
+
+}
+
+.container img{
+    width:50%;
+    min-height:200px;
+    object-fit: contain;
+    border-radius: 25px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+     
+}
+.logo-head{
+    font-size: 28px;
+    color: #EFDFBB;
+    margin-top: 20px;
+}
+body{
+    background-color: #fff6dc;
+    
+}
